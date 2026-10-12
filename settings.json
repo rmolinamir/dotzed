@@ -10,18 +10,18 @@
   "agent": {
     "dock": "right",
     "favorite_models": [],
-    "model_parameters": [],
-    "sidebar_side": "right"
+    "model_parameters": []
   },
   "agent_servers": {
     "opencode": {
       "default_config_options": {
         "effort": "medium",
         "mode": "build",
-        "model": "openai/gpt-5.4"
+        "model": "openai/gpt-6.1-sol"
       },
       "favorite_config_option_values": {
-        "model": ["openai/gpt-5.4", "openai/gpt-5.5", "openai/gpt-5.6"]
+        "effort": ["medium"],
+        "model": ["openai/gpt-6.1", "openai/gpt-6.1-sol"]
       },
       "type": "registry"
     }
@@ -44,8 +44,18 @@
       "model": "qwen2.5-coder:7b",
       "prompt_format": "infer"
     },
-    "provider": "copilot"
+    "provider": "ollama"
   },
+  "file_scan_exclusions": [
+    "...",
+    "**/node_modules",
+    "**/.turbo",
+    "**/dist",
+    "**/.output",
+    "**/.nitro",
+    "**/.tanstack",
+    "**/.wrangler"
+  ],
   "git_panel": {
     "diff_stats": true,
     "dock": "left",
