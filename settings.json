@@ -10,9 +10,15 @@
   "agent": {
     "dock": "right",
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
+    "threads_sidebar": {
+      "position": "right"
+    }
   },
   "agent_servers": {
+    "codex-acp": {
+      "type": "registry"
+    },
     "opencode": {
       "default_config_options": {
         "effort": "medium",
@@ -44,7 +50,7 @@
       "model": "qwen2.5-coder:7b",
       "prompt_format": "infer"
     },
-    "provider": "ollama"
+    "provider": "none"
   },
   "file_scan_exclusions": [
     "...",
@@ -229,7 +235,10 @@
     "dock": "bottom",
     "env": {},
     "font_family": "MesloLGS NF",
-    "font_size": 14.0
+    "font_size": 14.0,
+    "shell": {
+      "program": "/usr/local/bin/fish"
+    }
   },
   "theme": {
     "dark": "Curzed (Dark)",
