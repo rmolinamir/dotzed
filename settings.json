@@ -235,10 +235,7 @@
     "dock": "bottom",
     "env": {},
     "font_family": "MesloLGS NF",
-    "font_size": 14.0,
-    "shell": {
-      "program": "/usr/local/bin/fish"
-    }
+    "font_size": 14.0
   },
   "theme": {
     "dark": "Curzed (Dark)",
