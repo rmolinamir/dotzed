@@ -11,7 +11,7 @@
           }
         }
       ],
-      "language_servers": ["biome", "..."]
+      "language_servers": ["biome", "typescript-ls", "!vtsls", "!typescript-language-server", "..."]
     },
     // `tsconfig.json` files are treated as JSONC. See: https://github.com/helix-editor/helix/pull/12031
     "JSONC": {
@@ -39,9 +39,9 @@
         }
       ],
       "language_servers": [
+        "typescript-ls",
+        "!vtsls",
         "!typescript-language-server",
-        "!tsgo",
-        "vtsls",
         "..."
       ]
     },
@@ -57,9 +57,9 @@
         }
       ],
       "language_servers": [
+        "typescript-ls",
+        "!vtsls",
         "!typescript-language-server",
-        "!tsgo",
-        "vtsls",
         "..."
       ]
     }
